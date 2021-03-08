@@ -34,4 +34,4 @@ Seasoned and versatile backend software engineer with experience building and ma
 
 * **Languages:** PHP, JavaScript, Java (professional); Rust, Go (learning); C++, C (in a pinch)
 
-* **Tools:** MySQL, Cassandra, Docker, Kubernetes, Jenkins, Puppet, Linux, and many more!
+* **Tools:** MySQL, Cassandra, Docker, Kubernetes, Kafka, Jenkins, Puppet, and many more!
