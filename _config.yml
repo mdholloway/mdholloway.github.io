@@ -20,7 +20,7 @@
 
 title: Michael Holloway
 email: mdh@mdholloway.org
-description: Personal home page of Michael Holloway, a software engineer.
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mdholloway.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mdholloway

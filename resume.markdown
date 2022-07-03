@@ -5,26 +5,36 @@ permalink: /resume/
 ---
 
 ## Experience
+### Zendesk
+#### Senior software engineer (2021-present)
+
+* Currently leading development of a [Flink](https://flink.apache.org/)-based streaming data platform for creating and storing aggregated platform usage data per customer.
+  * Created an RFC document to collect and incorporate feedback on the proposed system design from across Zendesk engineering.
+  * Presented the project to department colleagues (both technical and non-technical).
+  * Currently leading the hands-on implementation work.
+
+* Worked on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
+
+* Conducted an observabilty audit on archived tickets and added dozens of new monitors and alerts around archived ticket storage and retrieval.
+
 ### Wikimedia Foundation
-#### Senior software engineer (2020-present)
+#### Senior software engineer (2020-2021)
 
-* Currently working to improve Wikimedia’s product analytics infrastructure by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for analytics event production.
+* Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps.
 
-* Serve as team delegate on the Wikimedia [Technical Decision Forum](https://www.mediawiki.org/wiki/Technical_Decision_Forum), which provides advice on high-impact, cross-cutting, and/or hard-to-undo technical decisions.
+* Worked to improve Wikimedia’s product analytics infrastructure by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for analytics events.
 
-* Mentor colleagues on developing and deploying extensions for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) and working with Wikimedia’s [technical infrastructure](https://wikitech.wikimedia.org/wiki/Main_Page).
+* Served on the [Technical Decision Forum](https://www.mediawiki.org/wiki/Technical_Decision_Forum), where I provided feedback on high-impact, cross-cutting, and hard-to-undo technical decisions.
 
-* Led the development of [backend infrastructure for push notifications](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps.
+* Mentored colleagues on developing and deploying extensions for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), Wikimedia's open-source publishing platform, and on navigating Wikimedia’s [technical infrastructure](https://wikitech.wikimedia.org/wiki/Main_Page).
 
 #### Software engineer (2015-2020)
 
-* Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide [image-labeling suggestions](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) from Google Cloud Vision for images uploaded to Wikimedia Commons.
+* Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide machine-generated [image-labeling suggestions](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) from Google Cloud Vision for images uploaded to Wikimedia Commons.
 
-* Built infrastructure for suggesting in-app micro-contributions to the Wikimedia projects in the [Suggested Edits](https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits) feature and for [tracking contributions](https://www.mediawiki.org/wiki/Extension:WikimediaEditorTasks) made through the feature.
+* Built infrastructure for suggesting in-app micro-contributions to the Wikimedia projects for the [Suggested Edits](https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits) feature, and for [tracking contributions](https://www.mediawiki.org/wiki/Extension:WikimediaEditorTasks) made through the feature.
 
-* Developed a set of REST APIs backed by Node.js services to support [Page Previews](https://www.mediawiki.org/wiki/Page_Previews) on the web and provide [page and feed content](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/RESTBase_services_for_apps) to the Wikipedia apps.
-
-* Built [browser extensions](https://www.mediawiki.org/wiki/Wikimedia_Apps/Reading_list_browser_extension) for Chrome, Firefox, and Safari for adding Wikimedia wiki pages to reading lists available in the apps.
+* Developed a set of REST APIs backed by Node.js services to support [Page Previews](https://www.mediawiki.org/wiki/Page_Previews) on the web and provide [article and featured feed content](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/RESTBase_services_for_apps) to the Wikipedia apps.
 
 * Developed a [featured-content feed](https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Explore_feed) in the Wikipedia app for Android.
 
@@ -32,12 +42,15 @@ permalink: /resume/
 
 ## Skills
 
-* **Languages:** PHP, JavaScript, Java (professional); Swift, Rust, Go (learning); C++, C (in a pinch)
+### Languages
+* Daily professional use: Java (current), JavaScript/Node.js & PHP (past)
+* Limited professional experience: Ruby, Python, Scala, TypeScript, Swift
+* Personal dabbling: Rust, Go, C++, C
 
-* **Tools:** MySQL, Cassandra, Docker, Kubernetes, Kafka, Jenkins, Puppet, and many others
+### Tools, Technologies, & Frameworks
+Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS (Aurora & DynamoDB), MySQL/MariaDB, Cassandra, Spinnaker, Datadog, GitHub Actions, Jenkins, Puppet
 
 ## Education
-
-* JD, Columbia University
-* MA, University of Wisconsin, Madison
-* BA, Cornell University
+* JD, Columbia, 2011
+* MA, Political Science, Wisconsin, 2005
+* BA, Government, Cornell, 2004
