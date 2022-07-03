@@ -15,7 +15,7 @@ permalink: /resume/
 
 * Worked on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
 
-* Performed an observability audit on archived tickets and added dozens of new monitors and alerts around archived ticket storage and retrieval.
+* Performed an observability audit on archived tickets, created and improved documentation, and added several new monitors and alerts around archived ticket storage and retrieval.
 
 ### [Wikimedia Foundation](https://wikimediafoundation.org)
 #### Senior Software Engineer, Product Infrastructure (2020-2021)
