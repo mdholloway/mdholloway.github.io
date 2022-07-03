@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 ## Experience
-### Zendesk
+### [Zendesk](https://zendesk.com)
 #### Senior Software Engineer, Ticket Platform (2021-present)
 
 * Currently leading development of a [Flink](https://flink.apache.org/)-based streaming data platform for creating and storing aggregated platform usage data per customer.
@@ -17,7 +17,7 @@ permalink: /resume/
 
 * Conducted an observabilty audit on archived tickets and added dozens of new monitors and alerts around archived ticket storage and retrieval.
 
-### Wikimedia Foundation
+### [Wikimedia Foundation](https://wikimediafoundation.org)
 #### Senior Software Engineer, Product Infrastructure (2020-2021)
 
 * Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps.
