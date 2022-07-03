@@ -8,14 +8,14 @@ permalink: /resume/
 ### [Zendesk](https://zendesk.com)
 #### Senior Software Engineer, Ticket Platform (2021-present)
 
-* Currently leading development of a [Flink](https://flink.apache.org/)-based streaming data platform for creating and storing aggregated platform usage data per customer.
+* Currently leading development of a [Flink](https://flink.apache.org/)-based stream data processing platform for creating and storing aggregated platform usage data per customer.
   * Created an RFC document to collect and incorporate feedback on the proposed system design from across Zendesk engineering.
   * Presented the project to department colleagues (both technical and non-technical).
   * Currently leading the hands-on implementation work.
 
 * Worked on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
 
-* Conducted an observabilty audit on archived tickets and added dozens of new monitors and alerts around archived ticket storage and retrieval.
+* Performed an observability audit on archived tickets and added dozens of new monitors and alerts around archived ticket storage and retrieval.
 
 ### [Wikimedia Foundation](https://wikimediafoundation.org)
 #### Senior Software Engineer, Product Infrastructure (2020-2021)
@@ -30,11 +30,11 @@ permalink: /resume/
 
 #### Software Engineer, Android App & Product Infrastructure (2015-2020)
 
-* Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide machine-generated [image-labeling suggestions](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) from Google Cloud Vision for images uploaded to Wikimedia Commons.
+* Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide [computer-aided tagging](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) suggestions from Google Cloud Vision for images uploaded to Wikimedia Commons.
 
-* Built infrastructure for suggesting in-app micro-contributions to the Wikimedia projects for the [Suggested Edits](https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits) feature, and for [tracking contributions](https://www.mediawiki.org/wiki/Extension:WikimediaEditorTasks) made through the feature.
+* Built infrastructure for suggesting in-app edits to the Wikimedia projects for the [Suggested Edits](https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits) feature, and for [tracking edits](https://www.mediawiki.org/wiki/Extension:WikimediaEditorTasks) made through the feature.
 
-* Developed a set of REST APIs backed by Node.js services to support [Page Previews](https://www.mediawiki.org/wiki/Page_Previews) on the web and provide [article and featured feed content](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/RESTBase_services_for_apps) to the Wikipedia apps.
+* Developed Node.js services and REST APIs to support [Page Previews](https://www.mediawiki.org/wiki/Page_Previews) on Wikipedia and provide [article and featured feed content](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/RESTBase_services_for_apps) to the Wikipedia apps.
 
 * Developed a [featured-content feed](https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Explore_feed) in the Wikipedia app for Android.
 
@@ -42,15 +42,15 @@ permalink: /resume/
 
 ## Skills
 
-### Languages
-* Daily professional use: Java (current), JavaScript/Node.js & PHP (past)
+### Programming Languages
+* Daily professional use: Java (current), JavaScript/Node.js, PHP (past)
 * Limited professional experience: Ruby, Python, Scala, TypeScript, Swift
-* Personal dabbling: Rust, Go, C++, C
+* Free-time dabbling: Rust, Go, C++, C
 
 ### Tools, Technologies, & Frameworks
-Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS (Aurora & DynamoDB), MySQL/MariaDB, Cassandra, Spinnaker, Datadog, GitHub Actions, Jenkins, Puppet
+Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS (Aurora & DynamoDB), MySQL/MariaDB, Cassandra, Spinnaker, Datadog, Jenkins, Puppet, & others
 
 ## Education
-* J.D., Columbia, 2011
-* M.A., Political Science, Wisconsin, 2005
-* B.A., Government, Cornell, 2004
+* J.D., Columbia
+* M.A., Political Science, Wisconsin
+* B.A., Government, Cornell
