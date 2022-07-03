@@ -6,7 +6,7 @@ permalink: /resume/
 
 ## Experience
 ### Zendesk
-#### Senior software engineer (2021-present)
+#### Senior Software Engineer, Ticket Platform (2021-present)
 
 * Currently leading development of a [Flink](https://flink.apache.org/)-based streaming data platform for creating and storing aggregated platform usage data per customer.
   * Created an RFC document to collect and incorporate feedback on the proposed system design from across Zendesk engineering.
@@ -18,7 +18,7 @@ permalink: /resume/
 * Conducted an observabilty audit on archived tickets and added dozens of new monitors and alerts around archived ticket storage and retrieval.
 
 ### Wikimedia Foundation
-#### Senior software engineer (2020-2021)
+#### Senior Software Engineer, Product Infrastructure (2020-2021)
 
 * Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps.
 
@@ -28,7 +28,7 @@ permalink: /resume/
 
 * Mentored colleagues on developing and deploying extensions for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), Wikimedia's open-source publishing platform, and on navigating Wikimedia’s [technical infrastructure](https://wikitech.wikimedia.org/wiki/Main_Page).
 
-#### Software engineer (2015-2020)
+#### Software Engineer, Android App & Product Infrastructure (2015-2020)
 
 * Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide machine-generated [image-labeling suggestions](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) from Google Cloud Vision for images uploaded to Wikimedia Commons.
 
@@ -51,6 +51,6 @@ permalink: /resume/
 Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS (Aurora & DynamoDB), MySQL/MariaDB, Cassandra, Spinnaker, Datadog, GitHub Actions, Jenkins, Puppet
 
 ## Education
-* JD, Columbia, 2011
-* MA, Political Science, Wisconsin, 2005
-* BA, Government, Cornell, 2004
+* J.D., Columbia, 2011
+* M.A., Political Science, Wisconsin, 2005
+* B.A., Government, Cornell, 2004
