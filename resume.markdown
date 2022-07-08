@@ -8,7 +8,7 @@ permalink: /resume/
 ### [Zendesk](https://zendesk.com)
 #### Senior Software Engineer, Ticket Platform (9/2021-present)
 
-* Currently leading the development of a Flink-based stream data processing platform for creating and storing aggregated platform usage data per customer. This includes engaging with senior engineers and architects across Zendesk to validate the proposed system architecture as well as leading the hands-on implementation work.
+* Currently leading the development of a [Flink](https://flink.apache.org/)-based stream data processing platform for creating and storing aggregated platform usage data per customer. This includes engaging with senior engineers and architects across Zendesk to validate the proposed system architecture as well as leading the hands-on implementation work.
 
 * Work on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
 
