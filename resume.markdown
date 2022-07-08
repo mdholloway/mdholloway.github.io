@@ -49,5 +49,4 @@ Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS (Auro
 
 ## Education
 * J.D., Columbia
-* M.A., Political Science, Wisconsin
 * B.A., Government, Cornell
