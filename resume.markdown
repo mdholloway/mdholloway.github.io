@@ -6,29 +6,26 @@ permalink: /resume/
 
 ## Experience
 ### [Zendesk](https://zendesk.com)
-#### Senior Software Engineer, Ticket Platform (2021-present)
+#### Senior Software Engineer, Ticket Platform (9/2021-present)
 
-* Currently leading development of a [Flink](https://flink.apache.org/)-based stream data processing platform for creating and storing aggregated platform usage data per customer.
-  * Created an RFC document to collect and incorporate feedback on the proposed system design from across Zendesk engineering.
-  * Presented the project to department colleagues (both technical and non-technical).
-  * Currently leading the hands-on implementation work.
+* Currently leading the development of a Flink-based stream data processing platform for creating and storing aggregated platform usage data per customer. This includes engaging with senior engineers and architects across Zendesk to validate the proposed system architecture as well as leading the hands-on implementation work.
 
-* Worked on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
+* Work on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
 
-* Performed an observability audit on archived tickets, created and improved documentation, and added several new monitors and alerts around archived ticket storage and retrieval.
+* Performed an operability audit on archived tickets. Created and improved documentation and added several new monitors and alerts around archived ticket storage and retrieval.
 
 ### [Wikimedia Foundation](https://wikimediafoundation.org)
-#### Senior Software Engineer, Product Infrastructure (2020-2021)
+#### Senior Software Engineer, Product Infrastructure (7/2020-9/2021)
 
-* Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps.
+* Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps. This included engaging with senior security, privacy, and performance engineers to validate the proposed system architecture as well as leading the hands-on implementation work.
 
-* Worked to improve Wikimedia’s product analytics infrastructure by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for analytics events.
+* Worked to improve Wikimedia’s product analytics ecosystem by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for analytics events.
 
 * Served on the [Technical Decision Forum](https://www.mediawiki.org/wiki/Technical_Decision_Forum), where I provided feedback on high-impact, cross-cutting, and hard-to-undo technical decisions.
 
-* Mentored colleagues on developing and deploying extensions for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), Wikimedia's open-source publishing platform, and on navigating Wikimedia’s [technical infrastructure](https://wikitech.wikimedia.org/wiki/Main_Page).
+* Mentored colleagues on developing and deploying extensions for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), Wikimedia's open-source publishing platform, and on working effectively in Wikimedia’s [technical infrastructure](https://wikitech.wikimedia.org/wiki/Main_Page).
 
-#### Software Engineer, Android App & Product Infrastructure (2015-2020)
+#### Software Engineer, Android App & Product Infrastructure (3/2015-7/2020)
 
 * Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide [computer-aided tagging](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) suggestions from Google Cloud Vision for images uploaded to Wikimedia Commons.
 
@@ -36,7 +33,7 @@ permalink: /resume/
 
 * Developed Node.js services and REST APIs to support [Page Previews](https://www.mediawiki.org/wiki/Page_Previews) on Wikipedia and provide [article and featured feed content](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/RESTBase_services_for_apps) to the Wikipedia apps.
 
-* Developed a [featured-content feed](https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Explore_feed) in the Wikipedia app for Android.
+* Contributed to [featured-content feed](https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Explore_feed) development in the Wikipedia app for Android.
 
 * Co-maintained Wikimedia’s [map tile server infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Maps).
 
