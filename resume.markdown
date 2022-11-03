@@ -8,7 +8,7 @@ permalink: /resume/
 ### [Zendesk](https://zendesk.com)
 #### Senior Software Engineer, Ticket Platform (9/2021-present)
 
-* Currently leading the development of a [Flink](https://flink.apache.org/)-based stream data processing platform for creating and storing aggregated platform usage data. This includes engaging with senior engineers and architects across Zendesk to validate the proposed system architecture as well as leading the hands-on implementation work.
+* Led the development of a stream processing prototype for creating, storing, and serving aggregated product usage data. Authored and circulated an RFC and engaged with engineering leaders to validate the proposed system architecture.
 
 * Work on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
 
@@ -19,7 +19,7 @@ permalink: /resume/
 
 * Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps. This included engaging with senior security, privacy, and performance engineers to validate the proposed system architecture as well as leading the hands-on implementation work.
 
-* Worked to improve Wikimedia’s product analytics ecosystem by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for analytics events.
+* Worked to improve Wikimedia’s product analytics ecosystem by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for product analytics.
 
 * Served on the [Technical Decision Forum](https://www.mediawiki.org/wiki/Technical_Decision_Forum), where I provided feedback on high-impact, cross-cutting, and hard-to-undo technical decisions.
 
@@ -40,12 +40,12 @@ permalink: /resume/
 ## Skills
 
 ### Programming Languages
-* Daily professional use: Java (current), JavaScript/Node.js, PHP (past)
-* Limited professional experience: Ruby, Python, Scala, TypeScript, Swift
-* Free-time dabbling: Rust, Go, C++, C
+* Daily professional use: Ruby (current); Java, JavaScript/Node.js, PHP (past)
+* Limited professional experience: Python, Scala, TypeScript, Swift, Go
+* Free-time dabbling: Rust, C++
 
 ### Tools, Technologies, & Frameworks
-Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS (Aurora & DynamoDB), MySQL/MariaDB, Cassandra, Spinnaker, Datadog, Jenkins, Puppet, & others
+Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS, MySQL/MariaDB, Postgres, Cassandra, Spinnaker, Datadog, Jenkins, Puppet, & others
 
 ## Education
 * J.D., Columbia
