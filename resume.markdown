@@ -8,45 +8,33 @@ permalink: /resume/
 ### [Zendesk](https://zendesk.com)
 #### Senior Software Engineer, Ticket Platform (9/2021-present)
 
-* Led the development of a stream processing prototype for creating, storing, and serving aggregated product usage data. Authored and circulated an RFC and engaged with engineering leaders to validate the proposed system architecture.
+* Improving the scalability and performance of Zendesk’s support ticket storage infrastructure by migrating over 300 TB of archived support tickets from a legacy backend to DynamoDB.
 
-* Work on migrating storage of archived support tickets from a legacy [Riak](https://riak.com/index.html) backend to [DynamoDB](https://aws.amazon.com/dynamodb/).
+* Headed development of a proof of concept for aggregating streaming product usage data published to Kafka by upstream applications. Authored and circulated a technical design document and engaged with engineering leaders to validate the proposed architecture. Led the development team that implemented the proof of concept using Apache Flink.
 
-* Performed an operability audit on archived tickets. Created and improved documentation and added several new monitors and alerts around archived ticket storage and retrieval.
+* Audited archived ticket system monitors to improve reliability. Added metrics on archived ticket get/set/delete response times and error rates; adjusted noisy monitors to alert only when action is needed; and created runbooks for responding to alerts.
 
 ### [Wikimedia Foundation](https://wikimediafoundation.org)
 #### Senior Software Engineer, Product Infrastructure (7/2020-9/2021)
 
-* Led the development of a [push notifications infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Product_Infrastructure_team/Push_Notifications_Infrastructure) for the Wikipedia apps. This included engaging with senior security, privacy, and performance engineers to validate the proposed system architecture as well as leading the hands-on implementation work.
+* Spearheaded the development of a push notifications service for the Wikipedia iOS & Android apps to support user engagement initiatives. Worked with engineering leaders to validate the proposed system architecture and led a team of engineers doing the hands-on implementation work using TypeScript and Node.js/Express.
 
-* Worked to improve Wikimedia’s product analytics ecosystem by building a set of [client libraries](https://wikitech.wikimedia.org/wiki/Event_Platform/Client) (JS, Java, PHP, & Swift) for product analytics.
+* Created a set of standardized client libraries (JS, Java, PHP, & Swift) to improve Wikimedia’s product analytics capabilities.
 
-* Served on the [Technical Decision Forum](https://www.mediawiki.org/wiki/Technical_Decision_Forum), where I provided feedback on high-impact, cross-cutting, and hard-to-undo technical decisions.
+* Drove the definition of service level objectives (SLOs) and service level indicators (SLIs) for services maintained by the Product Infrastructure team.
 
-* Mentored colleagues on developing and deploying extensions for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), Wikimedia's open-source publishing platform, and on working effectively in Wikimedia’s [technical infrastructure](https://wikitech.wikimedia.org/wiki/Main_Page).
+* Mentored colleagues on developing extensions for MediaWiki, Wikimedia’s open-source publishing platform, and on working effectively in Wikimedia’s technical infrastructure.
 
 #### Software Engineer, Android App & Product Infrastructure (3/2015-7/2020)
 
-* Led the development of a MediaWiki [extension](https://www.mediawiki.org/wiki/Extension:MachineVision) to provide [computer-aided tagging](https://commons.wikimedia.org/wiki/Commons:Structured_data/Computer-aided_tagging) suggestions from Google Cloud Vision for images uploaded to Wikimedia Commons.
+* Designed a MediaWiki (PHP) extension to fetch image labels from the Google Cloud Vision API for images on MediaWiki Commons, map the resulting labels to Wikidata Item IDs, and serve them to Commons users as image tagging suggestions. Led the development team building the extension. This project resulted in the addition of structured tags to over 300,000 image files.
 
-* Built infrastructure for suggesting in-app edits to the Wikimedia projects for the [Suggested Edits](https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits) feature, and for [tracking edits](https://www.mediawiki.org/wiki/Extension:WikimediaEditorTasks) made through the feature.
+* Designed and built a system to generate in-app suggestions for contributing to the Wikimedia projects and for tracking suggested edits made through the apps.
 
-* Developed Node.js services and REST APIs to support [Page Previews](https://www.mediawiki.org/wiki/Page_Previews) on Wikipedia and provide [article and featured feed content](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/RESTBase_services_for_apps) to the Wikipedia apps.
+* Built APIs and services using Node.js/Express to support new features including link preview popups and featured content feeds in the Wikipedia apps.
 
-* Contributed to [featured-content feed](https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Explore_feed) development in the Wikipedia app for Android.
-
-* Co-maintained Wikimedia’s [map tile server infrastructure](https://www.mediawiki.org/wiki/Wikimedia_Maps).
-
-## Skills
-
-### Programming Languages
-* Daily professional use: Ruby (current); Java, JavaScript/Node.js, PHP (past)
-* Limited professional experience: Python, Scala, TypeScript, Swift, Go
-* Free-time dabbling: Rust, C++
-
-### Tools, Technologies, & Frameworks
-Apache Flink, Apache Kafka, Kafka Streams, Vert.x, Docker, Kubernetes, AWS, MySQL/MariaDB, Postgres, Cassandra, Spinnaker, Datadog, Jenkins, Puppet, & others
+* Developed the featured content feed in the Wikipedia Android app.
 
 ## Education
-* J.D., Columbia
-* B.A., Government, Cornell
+* J.D., Columbia U.
+* B.A. *cum laude*, Government, Cornell U.
