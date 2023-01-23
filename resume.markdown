@@ -36,5 +36,5 @@ permalink: /resume/
 * Developed the featured content feed in the Wikipedia Android app.
 
 ## Education
-* J.D., Columbia U.
-* B.A. *cum laude*, Government, Cornell U.
+* J.D., Columbia University
+* B.A. *cum laude*, Government, Cornell University
