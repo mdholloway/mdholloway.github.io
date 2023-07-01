@@ -7,11 +7,11 @@ permalink: /resume/
 ## Experience
 
 ### [HubSpot](https://www.hubspot.com)
-#### Senior Software Engineer II, Sandboxes Backend, Developer Product Group (June 2023-present)
+#### Senior Software Engineer II (June 2023-present)
 
 
 ### [Zendesk](https://zendesk.com)
-#### Senior Software Engineer, Ticket Platform (September 2021-June 2023)
+#### Senior Software Engineer (September 2021-June 2023)
 
 * Improved the scalability and performance of Zendesk’s support ticket storage infrastructure by migrating over 300 TB of archived support tickets from a legacy backend to DynamoDB.
 
@@ -20,7 +20,7 @@ permalink: /resume/
 * Audited archived ticket system monitors to improve reliability. Added metrics on archived ticket get/set/delete response times and error rates; adjusted noisy monitors to alert only when action is needed; and created runbooks for responding to alerts.
 
 ### [Wikimedia Foundation](https://wikimediafoundation.org)
-#### Senior Software Engineer, Product Infrastructure (July 2020-September 2021)
+#### Senior Software Engineer (July 2020-September 2021)
 
 * Spearheaded the development of a push notifications service for the Wikipedia iOS & Android apps to support user engagement initiatives. Worked with engineering leaders to validate the proposed system architecture and led a team of engineers doing the hands-on implementation work using TypeScript and Node.js/Express.
 
@@ -30,7 +30,7 @@ permalink: /resume/
 
 * Mentored colleagues on developing extensions for MediaWiki, Wikimedia’s open-source publishing platform, and on working effectively in Wikimedia’s technical infrastructure.
 
-#### Software Engineer, Android App & Product Infrastructure (March 2015—July 2020)
+#### Software Engineer (March 2015—July 2020)
 
 * Designed a MediaWiki (PHP) extension to fetch image labels from the Google Cloud Vision API for images on MediaWiki Commons, map the resulting labels to Wikidata Item IDs, and serve them to Commons users as image tagging suggestions. Led the development team building the extension. This project resulted in the addition of structured tags to over 300,000 image files.
 
