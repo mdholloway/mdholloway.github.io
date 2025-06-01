@@ -1,53 +1,156 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Theme
+remote_theme: epidrome/cover-card@main
 
-title: Michael Holloway
-email: michael@mdholloway.org
-description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mdholloway.org" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: mdholloway
-flickr_username: _mdh
-linkedin_username: michaeldavidholloway
+# Title and tag line
+title: 'Michael Holloway'
+description: 'Software Engineer'
 
-# Build settings
-theme: minima
-pages: []
-header_pages: []
+# Images
+# avatar: 'avatar.jpg'
+background: 'background.png'
+# favicon: 'favicon.ico'
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Online profiles
+#dribbble: 'mydribbble'
+#facebook: 'myfacebook'
+#twitter: 'mytwitter'
+linkedin: 'michaeldavidholloway'
+#instagram: 'myinsta'
+#pinterest: 'mypinterest'
+#youtube: 'myyoutube'
+github-user: 'mdholloway'
+#gitlab-user: ''
+#codepen: ''
+#steam: ''
+#soundcloud: ''
+#lastfm: ''
+#stack-overflow: ''
+#reddit: ''
+rubygems: 'mdholloway'
+#medium:  ''
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+#vk: 'myvk'
+#blog_url: 'myblog.blog.com'
+email: 'michael@mdholloway.org'
+#messenger: 'myfbchat'
+
+social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+
+# Yaml manifest of supported social links
+# Requirements:
+# `name`
+#     - plain-text name of the site (e.g. twitter)
+#     - **mandatory**
+# `url-pattern`
+#     - site URL pattern containing a placeholder string (e.g. twitter.com/__USERNAME__)
+#     - placeholder will be replaced by username or value specified in _config.yml (e.g. twitter.com/mytwitter)
+#     - **mandatory**
+# `url-scheme`
+#     - the hardcoded URI/URN url-scheme (e.g. https://)
+#     - can be one of: ['https://', 'http://', 'mailto:']
+#     - defaults to '//'
+#     - **optional**
+# `icon-class`
+#     - the font awesome icon class names
+#     - font-awesome free and supports `fas` (solid) and `fab` (brands) styles
+#     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
+#     - **optional**
+social-links:
+  - name: facebook
+    url-pattern: facebook.com/__USERNAME__
+    icon-class: fab fa-2x fa-facebook-f
+
+  - name: twitter
+    url-pattern: twitter.com/__USERNAME__
+
+  - name: linkedin
+    url-pattern: linkedin.com/in/__USERNAME__
+
+  - name: google-plus
+    url-pattern: plus.google.com/+__USERNAME__
+
+  - name: vk
+    url-pattern: vk.com/__USERNAME__
+
+  - name: weibo
+    url-pattern: weibo.com/__USERNAME__
+
+  - name: instagram
+    url-pattern: instagram.com/__USERNAME__
+
+  - name: flickr
+    url-pattern: flickr.com/__USERNAME__
+
+  - name: pinterest
+    url-pattern: pinterest.com/__USERNAME__
+
+  - name: github-user
+    url-pattern: github.com/__USERNAME__
+    icon-class: fab fa-2x fa-github
+
+  - name: gitlab-user
+    url-pattern: gitlab.com/__USERNAME__
+    icon-class: fab fa-2x fa-gitlab
+
+  - name: codepen
+    url-pattern: codepen.com/__USERNAME__
+
+  - name: stack-overflow
+    url-pattern: stackoverflow.com/users/__USERNAME__
+
+  - name: reddit
+    url-pattern: reddit.com/user/__USERNAME__
+
+  - name: rubygems
+    url-pattern: rubygems.org/profiles/__USERNAME__
+    icon-class: far fa-2x fa-gem
+
+  - name: steam
+    url-pattern: steamcommunity.com/id/__USERNAME__
+
+  - name: youtube
+    url-pattern: youtube.com/__USERNAME__
+
+  - name: vimeo
+    url-pattern: vimeo.com/__USERNAME__
+
+  - name: soundcloud
+    url-pattern: soundcloud.com/__USERNAME__
+
+  - name: lastfm
+    url-pattern: last.fm/user/__USERNAME__
+
+  - name: medium
+    url-pattern: medium.com/@__USERNAME__
+
+  - name: tumblr
+    url-pattern: __USERNAME__.tumblr.com
+
+  - name: dribbble
+    url-pattern: dribbble.com/__USERNAME__
+
+  - name: keybase
+    url-pattern: keybase.io/__USERNAME__
+
+  - name: messenger
+    url-pattern: m.me/__USERNAME__
+    icon-class: fab fa-2x fa-facebook-messenger
+
+  - name: telegram
+    url-pattern: telegram.me/__USERNAME__
+
+  - name: snapchat
+    url-pattern: snapchat.com/add/__USERNAME__
+
+  - name: quora
+    url-pattern: www.quora.com/profile/__USERNAME__
+
+  - name: blog_url
+    url-pattern: '__USERNAME__'
+    icon-class: fas fa-2x fa-blog
+
+  - name: email
+    url-scheme: 'mailto:'
+    url-pattern: '__USERNAME__'
+    icon-class: far fa-2x fa-envelope-open
