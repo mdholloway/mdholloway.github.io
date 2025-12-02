@@ -3,7 +3,7 @@ remote_theme: epidrome/cover-card@main
 
 # Title and tag line
 title: 'Michael Holloway'
-# description: 'Software Engineer'
+description: 'bikes / photos / tech / nyc'
 
 # Images
 avatar: 'avatar.png'
