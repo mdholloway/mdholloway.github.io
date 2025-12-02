@@ -6,7 +6,7 @@ title: 'Michael Holloway'
 # description: 'Software Engineer'
 
 # Images
-# avatar: 'avatar.jpg'
+# avatar: 'avatar.png'
 background: 'background.png'
 # favicon: 'favicon.ico'
 
@@ -15,7 +15,7 @@ background: 'background.png'
 #facebook: 'myfacebook'
 #twitter: 'mytwitter'
 linkedin: 'michaeldavidholloway'
-#instagram: 'myinsta'
+instagram: 'mdh_dot_dev'
 #pinterest: 'mypinterest'
 #youtube: 'myyoutube'
 github-user: 'mdholloway'
@@ -32,7 +32,7 @@ rubygems: 'mdholloway'
 #weibo: 'myweibo'
 #vk: 'myvk'
 #blog_url: 'myblog.blog.com'
-email: 'michael@mdholloway.org'
+email: 'm@mdh.dev'
 #messenger: 'myfbchat'
 
 social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
