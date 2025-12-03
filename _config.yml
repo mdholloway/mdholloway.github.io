@@ -16,6 +16,7 @@ background: 'background.png'
 #twitter: 'mytwitter'
 linkedin: 'michaeldavidholloway'
 instagram: 'mdh_dot_dev'
+flickr: '_mdh'
 #pinterest: 'mypinterest'
 #youtube: 'myyoutube'
 github-user: 'mdholloway'
@@ -35,7 +36,7 @@ rubygems: 'mdholloway'
 email: 'm@mdh.dev'
 #messenger: 'myfbchat'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [github-user, facebook, twitter, instagram, flickr, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
 
 # Yaml manifest of supported social links
 # Requirements:
