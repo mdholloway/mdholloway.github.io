@@ -35,8 +35,9 @@ rubygems: 'mdholloway'
 #blog_url: 'myblog.blog.com'
 email: 'm@mdh.dev'
 #messenger: 'myfbchat'
+admonymous: michael-holloway
 
-social-links-order: [github-user, facebook, twitter, instagram, flickr, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [github-user, facebook, twitter, instagram, flickr, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, admonymous, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -155,3 +156,7 @@ social-links:
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
+
+  - name: admonymous
+    url-pattern: admonymous.co/__USERNAME__
+    icon-class: far fa-2x fa-comment-dots
